@@ -31,5 +31,5 @@ for j in range(m):
 pos = {n: (n[1], n[0]) for n in G.nodes()}
 nx.draw_networkx_nodes(G, pos, node_size=30, alpha=1, node_color='blue')
 nx.draw_networkx_edges(G, pos, label=1, edge_color="black", width=2)
-plt.savefig('graph_test.png')
+plt.savefig('graph_sample.png')
 
