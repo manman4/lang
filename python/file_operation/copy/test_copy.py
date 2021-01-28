@@ -9,6 +9,7 @@ if os.path.isfile(src):
     new_dir_path = './new-dir'
     os.mkdir(new_dir_path)
 
-    for i in range(1, 11):
+    n = 10
+    for i in range(1, n + 1):
         copy = new_dir_path + '/test_' + str(i) + '.json'
         shutil.copyfile(src, copy)
