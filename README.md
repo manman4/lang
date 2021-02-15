@@ -19,5 +19,3 @@ Go, PARI, Python, Ruby
 | 数字へ | n, _ = strconv.Atoi(s) | n = s.to_i |
 | 文字へ | s = strconv.Itoa(n) | i = n.to_s |
 
-
-
