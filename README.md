@@ -19,6 +19,13 @@ Go, PARI, Python, Ruby, Java
 | 数字へ | n, _ = strconv.Atoi(s) | n = s.to_i |
 | 文字へ | s = strconv.Itoa(n) | i = n.to_s |
 
+--------------------
+
+繰り返し
+
+| 言語 | Python | Ruby |
+| :--: | :--: | :--: |
+|  break（あるいは return）されなかったら何かを実行 | for else | なし？ | 
 
 --------------------
 
