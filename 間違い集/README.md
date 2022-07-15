@@ -1,5 +1,9 @@
 # やりがちな間違い
 
+リストのコピー
+
+https://twitter.com/miyashin_prg/status/1546978955944607744
+
 ```python
 >>> a=[1]
 >>> b=[1,2]
