@@ -45,7 +45,7 @@ Go, PARI, Python, Ruby, Java
 | apply | あり | ? | あり | 
 
 ```PARI:apply
-my(x='x+O('x^30)); apply(round, Vec(serlaplace(cosh(sqrt(3) * (exp(x) - 1)))))
+my(x='x+O('x^30)); apply(round, Vec(serlaplace(cosh(sqrt(3)*(exp(x)-1)))))
 ```
 
 
