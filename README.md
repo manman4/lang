@@ -36,3 +36,16 @@ Go, PARI, Python, Ruby, Java
 | クラスメソッド | あり | あり | なし | 
 | スタティックメソッド | あり | なし | あり |
 
+--------------------
+
+便利
+
+| 言語 | Python | Ruby | PARI |
+| :--: | :--: | :--: | :--: |
+| apply | あり | ? | あり | 
+
+```PARI:apply
+my(x='x+O('x^30)); apply(round, Vec(serlaplace(cosh(sqrt(3) * (exp(x) - 1)))))
+```
+
+
