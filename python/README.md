@@ -3,7 +3,7 @@
 # debug
 
 ```
-import pdb
+import pdb;
 
 # 止めたいところ
 pdb.set_trace()
