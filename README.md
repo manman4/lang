@@ -42,7 +42,7 @@ Go, PARI, Python, Ruby, Java
 
 | 言語 | Python | Ruby | PARI |
 | :--: | :--: | :--: | :--: |
-| apply | あり | ? | あり | 
+| apply | pandas あり | ? | あり | 
 
 ```PARI:apply
 my(x='x+O('x^30)); apply(round, Vec(serlaplace(cosh(sqrt(3)*(exp(x)-1)))))
