@@ -1,3 +1,9 @@
+# インストール
+
+最近遅いらしい。
+
+https://blog.manabusakai.com/2020/01/no-longer-depends-on-homebrew-openssl/
+
 # 小ネタ
 
 ```Ruby
