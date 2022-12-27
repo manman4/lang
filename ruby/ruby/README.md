@@ -14,6 +14,10 @@ rbenv global 3.1.2
 rbenv versions
 ```
 
+Rubyのバージョンが切り替わらない時
+
+https://qiita.com/opiyo_taku/items/3312a75d5916f6cd32b1
+
 # 小ネタ
 
 ```Ruby
