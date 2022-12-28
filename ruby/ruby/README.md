@@ -16,13 +16,15 @@ rbenv versions
 
 Rubyのバージョンが切り替わらない時
 
-https://qiita.com/opiyo_taku/items/3312a75d5916f6cd32b1
 
 ```
-$ vi ~/.bash_profile
-export PATH="~/.rbenv/shims:/usr/local/bin:$PATH"
-eval "$(rbenv init -)"
+$ rbenv init
+# Load rbenv automatically by appending
+# the following to ~/.zshrc:
+
+eval "$(rbenv init - zsh)"
 $ source ~/.bash_profile
+$ ruby --version
 ```
 
 
