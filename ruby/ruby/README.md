@@ -18,12 +18,14 @@ Rubyのバージョンが切り替わらない時
 
 
 ```
-$ rbenv init
-# Load rbenv automatically by appending
-# the following to ~/.zshrc:
+$ echo $SHELL
+```
 
-eval "$(rbenv init - zsh)"
-$ source ~/.bash_profile
+/bin/zshの場合
+
+```
+$ echo 'eval "$(rbenv init -)"' >>  ~/.zshrc
+$ source ~/.zshrc
 $ ruby --version
 ```
 
