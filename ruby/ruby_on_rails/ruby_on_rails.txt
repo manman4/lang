@@ -1,0 +1,87 @@
+Windows10 へインストール
+
+(参考）
+https://railsguides.jp/getting_started.html
+
+http://railsinstaller.org/en　を使う方が楽かも...
+
+1. 準備
+　Git, Node.js, yarn, Ruby をいれておく
+
+確認
+＞git --version
+git version 2.28.0.windows.1
+
+>node -v
+v12.19.0
+
+>yarn -v
+1.22.5
+
+
+2. スタートメニューに登録されているStart Command Prompt with Ruby でプロンプトを立ち上げ、
+rubyとgemのバージョンを確認
+
+>ruby -v
+ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x64-mingw32]
+
+>gem -v
+3.1.2
+
+3. bundler
+bundlerはすでにインストールされているが、
+インストールし直す。
+
+>gem list bundler
+
+*** LOCAL GEMS ***
+
+bundler (default: 2.1.2)
+
+>bundler -v
+Bundler version 2.1.2
+
+>gem install bundler
+Fetching bundler-2.1.4.gem
+...
+
+>bundler -v
+Bundler version 2.1.4
+
+4. SQLite3 をインストール
+
+>gem install sqlite3
+Fetching sqlite3-1.4.2.gem
+...
+
+>gem list sqlite3
+
+*** LOCAL GEMS ***
+
+sqlite3 (1.4.2)
+
+5. Railsをインストール
+
+>gem install rails -v 6.0.2.1
+...
+
+>rails -v
+Rails 6.0.2.1
+
+6. 動作確認
+
+>rails new blog
+      create
+      ...
+└─ ws@6.2.1
+Done in 30.03s.
+Webpacker successfully installed 🎉 🍰
+
+>cd blog
+
+>rails server
+=> Booting Puma
+...
+
+http://localhost:3000
+でアプリケーションが起動していることを確認
