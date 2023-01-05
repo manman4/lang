@@ -1,0 +1,5 @@
+gccはいる
+以下のコマンドで使用可能
+
+brew update
+brew install crystal
