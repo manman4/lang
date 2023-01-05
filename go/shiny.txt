@@ -1,0 +1,3 @@
+GUIプログラミング
+
+C:\Users\(ユーザ名)\go\src>go get golang.org/x/exp/shiny/...
