@@ -1,0 +1,69 @@
+﻿Mac
+
+https://github.com/hokaccha/nodebrew
+
+1
+$ curl -L git.io/nodebrew | perl - setup
+
+2 path
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+3
+$ nodebrew install-binary <version> 
+
+version のところは
+stable
+latest
+
+4 確認
+$ nodebrew ls
+
+5
+nodebrew use <version> 
+
+6
+node -v
+
+7 Mac の最新版(catalina)で
+$ touch .zshrc
+$ vi .zshrc
+編集してpathを記述
+
+注意
+WiMAXとか32bit版の機器は使えなくなる
+
+8
+ターミナル→環境設定→プロファイル→シェル
+-zshをコマンド実行
+
+ーバージョンアップ等
+
+https://tarovlog.com/2021/01/16/update-node-js/
+
+1 nodebrew：インストール
+brew install nodebrew
+
+2 確認
+nodebrew -v
+
+3 インストール可能なバージョンを確認
+nodebrew ls-remote
+
+4
+nodebrew install-binary v14.xx.yみたいな
+
+ディレクトリがないというエラーが出れば
+mkdir -p ~/.nodebrew/src
+
+５
+node -v　しても変わっていない
+nodebrew ls　で確認するとv14.xx.yみたいなやつが表示されるので
+nodebrew use　v14.xx.yみたいな
+nodebrew ls　でcurrentが変わる
+
+最後に環境パスを通す。
+$ echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.zprofile
+$ source ~/.zprofile
+
+Node.js のバージョンを確認すると正しく反映されていることが確認できる。
+

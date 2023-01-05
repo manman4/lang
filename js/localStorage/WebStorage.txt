@@ -1,0 +1,5 @@
+Chrome
+https://qiita.com/k_yumoto/items/d2026128a08ed8fab22c
+
+1. 開発者ツール（F12）を開く
+2. ApplicationタブにLocal Storageがあるので、そこで確認する
