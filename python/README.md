@@ -9,7 +9,7 @@ import pdb;
 pdb.set_trace()
 ```
 
-## version により違い
+## version による違い
 
 ### メモ化
 
