@@ -49,4 +49,3 @@ my(x='x+O('x^30)); apply(round, Vec(serlaplace(cosh(sqrt(3)*(exp(x)-1)))))
 ```
 
 
-
