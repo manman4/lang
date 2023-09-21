@@ -9,3 +9,12 @@
 以下のサイトから、ダウンロードする。
 
 https://github.com/3-manifolds/Sage_macOS/releases
+
+
+## ファイルによる実行
+
+インタラクティブモードで開かず、普通にターミナルから
+
+sage xxx.sage
+
+で実行できる。
