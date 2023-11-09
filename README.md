@@ -8,7 +8,7 @@
 
 ## 対象言語
 
-Go, Python, Ruby, Java
+Go, Python, julia, Ruby, Crystal, Java
 
 ### 高度な言語
 
