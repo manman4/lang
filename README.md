@@ -12,7 +12,7 @@ Go, Python, Ruby, Java
 
 ### 高度な言語
 
-PARI, Singular
+PARI, SageMath, Singular
 
 --------------------
 
