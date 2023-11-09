@@ -8,7 +8,11 @@
 
 ## 対象言語
 
-Go, PARI, Python, Ruby, Java
+Go, Python, Ruby, Java
+
+### 高度な言語
+
+PARI, Singular
 
 --------------------
 
