@@ -18,3 +18,9 @@ https://github.com/3-manifolds/Sage_macOS/releases
 sage xxx.sage
 
 で実行できる。
+
+## 包含しているsoft
+
+https://doc.sagemath.org/html/ja/tutorial/interfaces.html
+
+PARI, GAP, Singular, Maxima
