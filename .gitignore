@@ -1,1 +1,16 @@
 python/basic/__pycache__
+
+# targetディレクトリを無視
+rust/hello-world/target
+
+# IDEやエディタの設定ファイルを無視
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# その他
+*.log
+*.bk
+
+
