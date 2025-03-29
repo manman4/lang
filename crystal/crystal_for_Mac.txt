@@ -1,4 +1,7 @@
 gccはいる
+
+Command Line Tools for Xcode が必要
+
 以下のコマンドで使用可能
 
 brew update
