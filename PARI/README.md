@@ -48,3 +48,20 @@ max, min
 %3 = 1 + 4*x + 10*x^2 + 20*x^3 + O(x^4)
 ```
 
+係数
+
+二変数のときは面倒
+
+```PARI:
+? f = 2*x + y + 3*x*y;                                                                                                       
+? polcoef(f, 1)
+%2 = 3*y + 2
+? /* ステップ1: 一時変数を使って x → z, y → x */
+? tmp = subst(f, x, z);     \\ f(z, y)
+? tmp = subst(tmp, y, x);   \\ f(z, x)
+? /* ステップ2: 最後に z → y に置換して g(y, x) 完成 */
+? g = subst(tmp, z, y);     \\ g(y, x)
+? polcoef(g, 1)                                        
+%3 = 3*y + 1
+```
+
