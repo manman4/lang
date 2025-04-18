@@ -28,3 +28,15 @@ https://ask.sagemath.org/question/38383/suppress-automatically-generated-python-
 https://doc.sagemath.org/html/ja/tutorial/interfaces.html
 
 PARI, GAP, Singular, Maxima
+
+
+## 計算
+
+### 第１種スターリング数
+
+PARIと違い符号なし
+
+```Sage:
+sage: print([stirling_number1(9, n) for n in (0..9)])
+# [0, 40320, 109584, 118124, 67284, 22449, 4536, 546, 36, 1]
+```
