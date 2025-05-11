@@ -13,10 +13,10 @@ pdb.set_trace()
 
 ### black
 
-'''
+```
 find . -name "*.py" -exec black {} \;  # 1つずつ処理
 find . -name "*.py" -exec black {} +   # 複数まとめて処理（推奨）
-'''
+```
 
 
 ## version による違い
