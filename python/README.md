@@ -1,4 +1,4 @@
-## opencv は別レポジトリ
+## opencv は別repository
 
 ## debug
 
@@ -8,6 +8,16 @@ import pdb;
 # 止めたいところ
 pdb.set_trace()
 ```
+
+## コード規約
+
+### black
+
+'''
+find . -name "*.py" -exec black {} \;  # 1つずつ処理
+find . -name "*.py" -exec black {} +   # 複数まとめて処理（推奨）
+'''
+
 
 ## version による違い
 
