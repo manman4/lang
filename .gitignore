@@ -14,3 +14,4 @@ rust/hello-world/target
 *.bk
 
 
+python/colorama/__pycache__
