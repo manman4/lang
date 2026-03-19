@@ -15,3 +15,5 @@ rust/hello-world/target
 
 
 python/colorama/__pycache__
+
+.env
